@@ -1,0 +1,39 @@
+/* div {
+    border: 2px solid green;
+    padding: 10px;
+    overflow: auto;
+}
+
+img {
+    height: 300px;
+    float: right;
+}
+
+.clear {
+    clear: both;
+} */
+
+#text {
+    font-size: 30px;
+}
+
+h1 {
+    /* direction: ltr;
+    writing-mode: vertical-lr; */
+    text-shadow: -3px -3px 2px grey;
+    text-transform: capitalize;
+    font-size: 50px;
+}
+
+.head {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
+    letter-spacing: 0.8px;
+    word-spacing: 2.5px;
+    line-height: 35px;
+    text-indent: 100px;
+    text-align: justify;
+}

@@ -1,0 +1,24 @@
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* p::before {
+    content: '⭐';
+}
+
+p::after {
+    content: '⭐';
+} */
+
+/* p::first-line {
+    background-color: burlywood;
+}
+
+p::first-letter {
+    font-size: 2rem;
+} */
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
