@@ -1,0 +1,13 @@
+ROW
+
+Main axis - X -> justify-content
+
+Cross axis - Y -> align-items
+
+COLUMN
+
+Main axis - Y -> justify-content
+
+Cross axis - X -> align-items
+
+Grid -> Both Row and Column
