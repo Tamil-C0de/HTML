@@ -1,0 +1,56 @@
+/*.box {
+    height: 150px;
+    width: 150px;
+    background-color: cadetblue;
+     transition: [property] [duration] [timing-function] [delay]; */
+/* transition-property: width height;
+    transition-duration: 2s; */
+/* transition: all 2s linear 3s; */
+
+/* linear  ease  ease-in   ease-out   ease-in-out 
+}*/
+/*
+.box:hover {
+    width: 250px;
+     height: 200px;
+    background-color: burlywood; 
+}*/
+
+/* .btn {
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+
+.btn:hover {
+    background-color: rgb(12, 12, 179);
+} */
+
+body {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    transition: all 1s;
+}
+
+.box:hover {
+    /* transform: translateX(-100px); */
+    /* transform: translateY(-100px); */
+    /* transform: translate(50px, -100px); */
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2); */
+    /* transform: scale(1.5, 2); */
+    /* transform: rotateZ(40deg); */
+    transform: perspective(500px) translateX(200px) rotateX(180deg);
+}

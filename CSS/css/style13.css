@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.container .btn {
+    width: 20%;
+    padding: 20px 30px;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 5px 3px #bfbebe;
+    cursor: pointer;
+}
+
+.container .btn:hover {
+    background-color: rgb(104, 23, 180);
+}
+
+.container .delete {
+    text-decoration: none;
+    background-color: rgb(202, 7, 7);
+    color: white;
+    width: 10%;
+    padding: 12px 15px;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 4px 4px 2px #6e6e6e;
+}

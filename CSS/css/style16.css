@@ -1,0 +1,45 @@
+/* ul { */
+/* list-style-type: decimal; */
+/* list-style-type: none; */
+/* list-style-image: url('checkmark-24-512\ \(1\).webp');
+    list-style-position: inside;
+} */
+
+/*ol {
+     list-style-type: upper-roman; */
+/* list-style-type: none; 
+}*/
+
+/*ol li {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: #313;
+     list-style-position: inside; 
+}*/
+
+/* .container {
+    width: 100%;
+    background-color: lightblue;
+}
+
+.box {
+    width: calc(100% - 50px);
+    padding: 20px;
+    background-color: lightcoral;
+} */
+
+:root {
+    --main-padding: 20px;
+    --main-border-radius: 10px;
+}
+
+.box {
+    width: min(500px, 100vw);
+    /* height: ; */
+    padding: var(--main-padding);
+    background-color: lightgreen;
+    border-radius: var(--main-border-radius);
+}
