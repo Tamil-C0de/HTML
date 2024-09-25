@@ -1,0 +1,14 @@
+{
+    "name": "John",
+    "age": 30,
+    "isMarried": true,
+    "children": [
+        "Lincy",
+        "Bruce"
+    ],
+    "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "zip": "123456"
+    }
+}
